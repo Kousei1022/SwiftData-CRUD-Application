@@ -7,6 +7,9 @@ struct ReadingShelfApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Book.self)
+        .modelContainer(
+            for: Book.self,
+            isStoredInMemoryOnly: ProcessInfo.processInfo.arguments.contains("-ui-testing")
+        )
     }
 }
