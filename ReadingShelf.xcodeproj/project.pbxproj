@@ -1,0 +1,135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ReadingShelfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ReadingShelfApp.swift */; };
+		A10000000000000000000002 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* Book.swift */; };
+		A10000000000000000000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* ContentView.swift */; };
+		A10000000000000000000004 /* BookEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* BookEditorView.swift */; };
+		A10000000000000000000005 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* BookDetailView.swift */; };
+		A10000000000000000000006 /* ReadingShelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* ReadingShelfUITests.swift */; };
+		A10000000000000000000007 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* XCTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50000000000000000000001;
+			remoteInfo = ReadingShelf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000001 /* ReadingShelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingShelfApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* BookEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEditorView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* ReadingShelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingShelfUITests.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
+		A20000000000000000000008 /* ReadingShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadingShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000009 /* ReadingShelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadingShelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A40000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000007 /* XCTest.framework in Frameworks */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A60000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A60000000000000000000002 /* ReadingShelf */,
+				A60000000000000000000003 /* ReadingShelfUITests */,
+				A60000000000000000000004 /* Frameworks */,
+				A60000000000000000000005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A60000000000000000000002 /* ReadingShelf */ = {isa = PBXGroup; children = (A20000000000000000000001 /* ReadingShelfApp.swift */, A20000000000000000000002 /* Book.swift */, A20000000000000000000003 /* ContentView.swift */, A20000000000000000000004 /* BookEditorView.swift */, A20000000000000000000005 /* BookDetailView.swift */,); path = ReadingShelf; sourceTree = "<group>"; };
+		A60000000000000000000003 /* ReadingShelfUITests */ = {isa = PBXGroup; children = (A20000000000000000000006 /* ReadingShelfUITests.swift */,); path = ReadingShelfUITests; sourceTree = "<group>"; };
+		A60000000000000000000004 /* Frameworks */ = {isa = PBXGroup; children = (A20000000000000000000007 /* XCTest.framework */,); name = Frameworks; sourceTree = "<group>"; };
+		A60000000000000000000005 /* Products */ = {isa = PBXGroup; children = (A20000000000000000000008 /* ReadingShelf.app */, A20000000000000000000009 /* ReadingShelfUITests.xctest */,); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* ReadingShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000002 /* Build configuration list for PBXNativeTarget "ReadingShelf" */;
+			buildPhases = (A70000000000000000000001 /* Sources */, A40000000000000000000001 /* Frameworks */, A70000000000000000000002 /* Resources */,);
+			buildRules = ();
+			dependencies = ();
+			name = ReadingShelf;
+			productName = ReadingShelf;
+			productReference = A20000000000000000000008 /* ReadingShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50000000000000000000002 /* ReadingShelfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90000000000000000000003 /* Build configuration list for PBXNativeTarget "ReadingShelfUITests" */;
+			buildPhases = (A70000000000000000000003 /* Sources */, A40000000000000000000002 /* Frameworks */, A70000000000000000000004 /* Resources */,);
+			buildRules = ();
+			dependencies = (A30000000000000000000002 /* PBXTargetDependency */,);
+			name = ReadingShelfUITests;
+			productName = ReadingShelfUITests;
+			productReference = A20000000000000000000009 /* ReadingShelfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2660; TargetAttributes = {A50000000000000000000001 = {CreatedOnToolsVersion = 26.0; }; A50000000000000000000002 = {CreatedOnToolsVersion = 26.0; TestTargetID = A50000000000000000000001; }; }; };
+			buildConfigurationList = A90000000000000000000001 /* Build configuration list for PBXProject "ReadingShelf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = A60000000000000000000001;
+			productRefGroup = A60000000000000000000005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (A50000000000000000000001 /* ReadingShelf */, A50000000000000000000002 /* ReadingShelfUITests */,);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000000000000000000002 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000004 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* ReadingShelfApp.swift in Sources */, A10000000000000000000002 /* Book.swift in Sources */, A10000000000000000000003 /* ContentView.swift in Sources */, A10000000000000000000004 /* BookEditorView.swift in Sources */, A10000000000000000000005 /* BookDetailView.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A70000000000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000006 /* ReadingShelfUITests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30000000000000000000002 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A50000000000000000000001 /* ReadingShelf */; targetProxy = A30000000000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000000000000000000001 /* Debug project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Debug; };
+		AA0000000000000000000002 /* Release project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; }; name = Release; };
+		AA0000000000000000000003 /* Debug app */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Reading Shelf"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.ReadShelf; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		AA0000000000000000000004 /* Release app */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Reading Shelf"; INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books"; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.ReadShelf; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		AA0000000000000000000005 /* Debug UI tests */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.ReadShelfUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = ReadingShelf; }; name = Debug; };
+		AA0000000000000000000006 /* Release UI tests */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.ReadShelfUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = ReadingShelf; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90000000000000000000001 /* Build configuration list for PBXProject "ReadingShelf" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000001 /* Debug project */, AA0000000000000000000002 /* Release project */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000002 /* Build configuration list for PBXNativeTarget "ReadingShelf" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000003 /* Debug app */, AA0000000000000000000004 /* Release app */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A90000000000000000000003 /* Build configuration list for PBXNativeTarget "ReadingShelfUITests" */ = {isa = XCConfigurationList; buildConfigurations = (AA0000000000000000000005 /* Debug UI tests */, AA0000000000000000000006 /* Release UI tests */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+/* End PBXProject section */
+	};
+	rootObject = A80000000000000000000001 /* Project object */;
+}
