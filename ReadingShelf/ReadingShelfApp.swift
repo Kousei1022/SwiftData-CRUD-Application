@@ -9,7 +9,7 @@ struct ReadingShelfApp: App {
         }
         .modelContainer(
             for: Book.self,
-            isStoredInMemoryOnly: ProcessInfo.processInfo.arguments.contains("-ui-testing")
+            inMemory: ProcessInfo.processInfo.arguments.contains("-ui-testing")
         )
     }
 }

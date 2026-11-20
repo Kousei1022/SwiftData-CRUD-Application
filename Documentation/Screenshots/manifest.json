@@ -1,0 +1,53 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B1BB04CE-7E3E-4D4E-BA0E-CBCDD5DC65C6",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "CA25C39E-89ED-4FC3-BEA8-7362C52EA677.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "05-delete-book_0_9BCF27DB-5F3B-446C-8EFC-60A8CEBF5E5F.png",
+        "timestamp" : 1795144546.693
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B1BB04CE-7E3E-4D4E-BA0E-CBCDD5DC65C6",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "C99DA070-EEF1-4020-9EC0-4FFB94BE5EB2.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "04-update-book_0_C1200D1D-AD73-4BB8-954E-128EFA1406A3.png",
+        "timestamp" : 1795144542.508
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B1BB04CE-7E3E-4D4E-BA0E-CBCDD5DC65C6",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "F7CA0A46-76AE-4B96-9714-83EA47885A42.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "03-read-book-details_0_2B6F891E-FF3C-4C97-A0A5-56D4F5449EE8.png",
+        "timestamp" : 1795144530.973
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B1BB04CE-7E3E-4D4E-BA0E-CBCDD5DC65C6",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "8720A8EE-FE07-4C76-9989-127658B1B9F6.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "02-create-book_0_B929E548-6079-43A2-B5B8-7B24CD08E8DB.png",
+        "timestamp" : 1795144529.408
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "B1BB04CE-7E3E-4D4E-BA0E-CBCDD5DC65C6",
+        "deviceName" : "iPhone 17",
+        "exportedFileName" : "4D1D7714-AA93-4F97-9870-7D9FD9C2FC05.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "01-empty-library_0_12AEB12C-1C70-4F6F-98F4-D69ECCB6B689.png",
+        "timestamp" : 1795144521.723
+      }
+    ],
+    "testIdentifier" : "ReadingShelfUITests/testCreateReadUpdateDeleteBook()",
+    "testIdentifierURL" : "test://com.apple.xcode/ReadingShelf/ReadingShelfUITests/ReadingShelfUITests/testCreateReadUpdateDeleteBook"
+  }
+]
